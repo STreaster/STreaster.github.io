@@ -1,0 +1,425 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose, moderately modified by Stephen Treaster
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>TRACCER: tool for relative evolutionary rate convergence - The Harris Laboratory</title>
+<meta name="description" content="How to associate genes with functions through shared occurences of traits.">
+
+
+  <meta name="author" content="Stephen Treaster">
+  
+  <meta property="article:author" content="Stephen Treaster">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="The Harris Laboratory">
+<meta property="og:title" content="TRACCER: tool for relative evolutionary rate convergence">
+<meta property="og:url" content="http://fishbonelab.org/projects/traccer/">
+
+
+  <meta property="og:description" content="How to associate genes with functions through shared occurences of traits.">
+
+
+
+  <meta property="og:image" content="http://fishbonelab.org/images/research/traccer_calcs.jpeg">
+
+
+
+
+
+  <meta property="article:published_time" content="2023-08-31T11:22:20-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://fishbonelab.org/projects/traccer/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Harris Laboratory",
+      "url": "http://fishbonelab.org/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="The Harris Laboratory Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          The Harris Laboratory
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/news/">News</a>
+            </li><li class="masthead__menu-item">
+              <a href="/people/">People</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://fishbonelab.org/people/stephen_treaster/">
+        <img src="/images/people/profile_turtle_cropped.jpg" alt="Stephen Treaster" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://fishbonelab.org/people/stephen_treaster/" itemprop="url">Stephen Treaster</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Postdoc unraveling longevity.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+
+      
+
+      
+        <li>
+          <a href="mailto:stephen_treaster@hms.harvard.edu" rel="me" class="u-email">
+            <meta itemprop="email" content="stephen_treaster@hms.harvard.edu" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/treasteveomics" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/https://github.com/STreaster" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        
+          
+            <li><a href="/hostedfiles/StephenTreaster.CV.pdf" rel="nofollow noopener noreferrer me"><i class="fas fa-solid fa-file-lines" aria-hidden="true"></i><span class="label">CV</span></a></li>
+          
+        
+      
+
+      <!--
+
+  <li>
+      <a href=/hostedfiles/StephenTreaster.CV.pdf itemprop="sameAs" rel="nofollow noopener noreferrer me">
+          <i class=fas fa-solid fa-file-lines aria-hidden="true"></i><span class="label">CV</span>
+    </a>
+  </li>
+
+/-->
+
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="TRACCER: tool for relative evolutionary rate convergence">
+    <meta itemprop="description" content="How to associate genes with functions through shared occurences of traits.">
+    <meta itemprop="datePublished" content="2023-08-31T11:22:20-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://fishbonelab.org/projects/traccer/" class="u-url" itemprop="url">TRACCER: tool for relative evolutionary rate convergence
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>The quest to map the genetic foundations of phenotypes has been empowered by the modern diversity, quality, and availability of genomic resources. Despite these expanding resources, the abundance of variation within lineages makes it challenging to associate genetic change to specific phenotypes, without an a priori means of isolating the changes from background genomic variation. Evolution provides this means through convergence—that is, the shared variation that may result from replicate evolutionary experiments across independent trait occurrences.</p>
+<figure style="max-width: 1000px" class="full">
+  <img src="http://fishbonelab.org/images/research/traccer_example.jpg" alt="" />
+   <figcaption>Example of a gene evolving faster and slower in various lineages in conjunction with the transition to a marine environment. This gene highlights the risks of assigning ancestral states, as required by previous analyses, as the ancestral pinniped could drive the signal for this to/from significance. This gene also highlights the risks of ignoring phylogentic relationships; while PLCZ1 appears to be undergoing constrained evolution with marine transitions, similar signals are found in the closest related terrestrial lineages. This indicates the pressure is not unique to marine lineages, and instead a property of the larger group. Meanwhile, the distantly related and oversampled rodent clade is enriched for accelerations. If phylogentic relationships are ignored, these patterns could spuriously suggest PLCZ1 is associated with marine transitions. TRACCER corrects for these issues.</figcaption>
+</figure>
+
+<p>To leverage these evolutionary opportunities and discover genes underlying complex traits, we developed TRACCER: Topologically Ranked Analysis of Convergence via Comparative Evolutionary Rates. Compared to current methods, this software empowers rate convergence analysis by factoring in topological relationships, because genetic variation between phylogenetically proximate trait changes is more likely to be facilitating the trait. Comparisons are performed not with singular branches, but with the complete paths to the most recent common ancestor for each pair of lineages. This ensures that comparisons represent a single context diverging over the same timeframe while obviating the problematic requirement of assigning ancestral states.</p>
+
+<figure style="max-width: 500px" class="align-right">
+  <img src="http://fishbonelab.org/images/research/traccer_longevity.jpg" alt="" />
+  <figcaption>We analyzed the evolution of longevity across mammals to identify new genes and gene sets underlying this important trait. As compared to previous methods, TRACCER identified more convergently evolving genes and gene sets.</figcaption>
+</figure>
+
+<p>We applied TRACCER to two case studies: mammalian transitions to marine environments, an unambiguous collection of traits that have independently evolved three times; and the evolution of mammalian longevity, a less delineated trait but with more instances to compare. By factoring in topology, TRACCER identifies highly significant, convergent genetic signals, with important incongruities and statistical resolution when compared to existing approaches. These improvements in sensitivity and specificity of convergence analysis generate refined targets for downstream validation and identification of genotype-phenotype relationships.</p>
+
+<h1 id="publications">Publications</h1>
+<ul>
+  <li>Treaster S., Deelen J., Daane J., Murabito J., Karasik K., Harris MP. (2023) Convergent genomics of longevity in rockfishes highlights the genetics of human life span variation. Science Advances 2023 Jan 11;9(2):eadd2743<a href="https://www.science.org/doi/10.1126/sciadv.add2743">[link]</a></li>
+  <li>Treaster S., Daane J., Harris MP. (2021) Refining Convergent Rate Analysis with Topology in Mammalian Longevity and Marine Transitions. Mol. Biol. Evol. 38, 5190–5203.</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        <!-- 
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#aging" class="page__taxonomy-item p-category" rel="tag">aging</a><span class="sep">, </span>
+    
+      <a href="/tags/#phylomapping" class="page__taxonomy-item p-category" rel="tag">phylomapping</a><span class="sep">, </span>
+    
+      <a href="/tags/#treaster" class="page__taxonomy-item p-category" rel="tag">treaster</a>
+    
+    </span>
+  </p>
+
+
+
+ -->
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>Updated: 2022</strong></p>
+
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/projects/spine/" class="pagination--pager" title="Patterning of the spine
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      
+        
+          <li><a href="https://twitter.com/fishyskeleton" rel="nofollow noopener noreferrer"><img src="/images/twitter.png"
+                  style="max-width:30px; width:100%; margin-left: auto; margin-right: auto; display: block;"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.childrenshospital.org/" rel="nofollow noopener noreferrer"><img src="/images/bch_logo_transparent.png"
+                  style="max-width:30px; width:100%; margin-left: auto; margin-right: auto; display: block;"></i> Boston Children's Hospital</a></li>
+        
+      
+        
+          <li><a href="https://www.hms.harvard.edu" rel="nofollow noopener noreferrer"><img src="/images/hms_logo_transparent.png"
+                  style="max-width:30px; width:100%; margin-left: auto; margin-right: auto; display: block;"></i> Harvard Medical School</a></li>
+        
+      
+    
+
+  </ul>
+</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
