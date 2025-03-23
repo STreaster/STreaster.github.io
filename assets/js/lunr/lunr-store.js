@@ -23,6 +23,12 @@ var store = [{
         "url": "/alumni/helena_boldt/",
         "teaser": "/images/people/helena_boldt_headshot.png"
       },{
+        "title": "2022 Interns",
+        "excerpt":"                                                                                                                              The interns in action.       ","categories": [],
+        "tags": [],
+        "url": "/alumni/interns_2022/",
+        "teaser": "/images/people/intern_all.jpg"
+      },{
         "title": "Jacob Daane",
         "excerpt":" ","categories": [],
         "tags": [],
@@ -53,6 +59,18 @@ var store = [{
         "url": "/alumni/kristen_radcliffe/",
         "teaser": "/images/people/kristen_radcliffe_headshot.jpg"
       },{
+        "title": "Daniela (Dani) Guerrero",
+        "excerpt":"Dani is a research assistant in the Balkin Lab (Plastic and Oral Surgery) working with the Harris and Warman Lab (Orthopedics) to develop mouse and zebrafish models of craniosynostosis. Our goal is to identify novel regulators of craniofacial development and dissect these genes’ contribution to disease pathogenicity. We are currently...","categories": [],
+        "tags": [],
+        "url": "/associated_personnel/dani_guerrero/",
+        "teaser": "/images/people/dani_headshot.jpg"
+      },{
+        "title": "Giulia Montagna",
+        "excerpt":"Enthusiastic molecular biologist interested in discovering the molecular mechanisms developing and maintaining one of the hardest biological tissues: bone. Giulia leverages pathogenic conditions in which one gene/protein is affected to understand the function of that gene/protein. So far, she has focused on Osteogenesis Imperfecta, Progressive Pseudorheumatoid Arthropathy of Childhood, Camptodactyly-Arthropathy-Coxa...","categories": [],
+        "tags": [],
+        "url": "/associated_personnel/giulia_montagna/",
+        "teaser": "/images/people/giulia_headshot.jpg"
+      },{
         "title": "Brent Hawkins",
         "excerpt":"Using vertebrate appendages as an evolutionary study system, I seek to characterize the developmental genetic mechanisms that control the generation of form and understand how these mechanisms both limit and potentiate evolutionary change. I leverage cutting-edge functional genetic tools in established model systems along with -omics approaches in emerging model...","categories": [],
         "tags": [],
@@ -65,11 +83,11 @@ var store = [{
         "url": "/people/hannah_grunwald/",
         "teaser": "/images/people/hannah_grunwald_headshot.png"
       },{
-        "title": "2022 Interns",
-        "excerpt":"                                                                                                                              The interns in action.       ","categories": [],
+        "title": "Indiana (Indy) Olson",
+        "excerpt":"Indiana is a research assistant who is currently aiding Stephen Treaster in unraveling the mechanics of aging. Indiana graduated from Occidental College in 2024 with a Bachelor’s in biology, a concentration in marine biology, and a minor in mathematics. They hope to go on to study the overlap of ecology...","categories": [],
         "tags": [],
-        "url": "/people/interns_2022/",
-        "teaser": "/images/people/intern_all.jpg"
+        "url": "/people/indiana_olson/",
+        "teaser": "/images/people/indiana_headshot.jpg"
       },{
         "title": "Joao Castro",
         "excerpt":"I research the genetic mechanisms that underlie inter- and intra-species morphological variation, with a focus on organ scaling and stemness control. I employ well established vertebrate models, in vitro cell culture, genomic data and functional genetic tools to study the molecular mechanisms that regulate morphology to better understand how genes...","categories": [],
@@ -77,14 +95,14 @@ var store = [{
         "url": "/people/joao_castro/",
         "teaser": "/images/people/joao_castro_headshot.jpg"
       },{
-        "title": "Katherine Woronowicz",
-        "excerpt":"Katherine Woronowicz is too busy doing brilliant science to send Stephen her bio blurb.   Related Projects                                                                            Craniofacial development and disease                          The fundamentals of hat fitting.                                                                                Origins and proportions of the jaw                          Taking a bite out of time.                                                                                Shifting size and form                          Different shapes for different capes.               Publications  ","categories": [],
+        "title": "Kate Woronowicz",
+        "excerpt":"I treat evolution as one big forward-genetic screen to uncover mechanisms that modulate craniofacial form. For example, I can ask, “Within this group of diverse fishes, are there consistent genomic regions or pathways that are altered in species with large jaws?” Through this, I am extending our understanding of craniofacial...","categories": [],
         "tags": [],
         "url": "/people/katherine_woronowics/",
         "teaser": "/images/people/katherine_woronowicz.jpg"
       },{
         "title": "Matthew Harris",
-        "excerpt":"Always pushing the boundaries of science and optimizing the amount of sugar to feed a postdoc. Publications Complete list in NCBI My Bibliography 2023 Matthew Harrs. To the fin and back again: expanding our understanding of congenital limb malformation. Disease Model Mech 2023 Apr 26. EDITOR’S CHOICE Treaster S., Deelen...","categories": [],
+        "excerpt":"Always pushing the boundaries of science and optimizing the amount of sugar to feed a postdoc. Publications Complete list in NCBI My Bibliography 2024 Woronowicz, K. C., Esin, E. V., Markevich, G. N., Martinez, C. S., McMenamin, S. K., Daane, J. M., Harris, M. P.* and Shkil, F. N.* (2024)....","categories": [],
         "tags": [],
         "url": "/people/matthew_harris/",
         "teaser": "/images/people/matt_headshot.jpg"
@@ -100,6 +118,12 @@ var store = [{
         "tags": [],
         "url": "/people/stephen_treaster/",
         "teaser": "/images/people/profile_turtle_cropped.jpg"
+      },{
+        "title": "Yu-Chia Chen",
+        "excerpt":"Yu-Chia is too busy doing brilliant science to send Stephen his bio.   Related Projects           Publications  ","categories": [],
+        "tags": [],
+        "url": "/people/yu-chia_chen/",
+        "teaser": "/images/people/yu-chia_chen.jpg"
       },{
         "title": "Cayman Island Expedition for Extreme Fins and Beaks",
         "excerpt":"In collaboration with the Central Caribbean Marine Institute on Little Cayman Island, we set out to collect fresh samples of flying fish, needlefish, and halfbeaks for comparative transcriptomics and cranial morphology.                                                                                                                                                                                                                                                                                        Cayman Expedition Gallery       ","categories": [],
