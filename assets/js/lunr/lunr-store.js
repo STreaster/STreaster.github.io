@@ -59,6 +59,12 @@ var store = [{
         "url": "/alumni/kristen_radcliffe/",
         "teaser": "/images/people/kristen_radcliffe_headshot.jpg"
       },{
+        "title": "Stephen Treaster",
+        "excerpt":"Geneticist and bioinformatician, leading a research program at GMGI in comparative genomics of longevity and evolutionary-guided interventions to extend lifespan and healthspan in small models. My lab leverages natural examples of exceptional longevity to decipher mechanisms of senescence resistance. Animals that resist the rigors of time well past a human...","categories": [],
+        "tags": [],
+        "url": "/alumni/stephen_treaster/",
+        "teaser": "/images/people/profile_turtle_cropped.jpg"
+      },{
         "title": "Daniela (Dani) Guerrero",
         "excerpt":"Dani is a research assistant in the Balkin Lab (Plastic and Oral Surgery) working with the Harris and Warman Lab (Orthopedics) to develop mouse and zebrafish models of craniosynostosis. Our goal is to identify novel regulators of craniofacial development and dissect these genes’ contribution to disease pathogenicity. We are currently...","categories": [],
         "tags": [],
@@ -83,7 +89,7 @@ var store = [{
         "url": "/people/hannah_grunwald/",
         "teaser": "/images/people/hannah_grunwald_headshot.png"
       },{
-        "title": "Indiana (Indy) Olson",
+        "title": "Indiana Olson",
         "excerpt":"Indiana is a research assistant who is currently aiding Stephen Treaster in unraveling the mechanics of aging. Indiana graduated from Occidental College in 2024 with a Bachelor’s in biology, a concentration in marine biology, and a minor in mathematics. They hope to go on to study the overlap of ecology...","categories": [],
         "tags": [],
         "url": "/people/indiana_olson/",
@@ -94,6 +100,12 @@ var store = [{
         "tags": [],
         "url": "/people/joao_castro/",
         "teaser": "/images/people/joao_castro_headshot.jpg"
+      },{
+        "title": "Justin **Waletich**",
+        "excerpt":"Okay, not actually ageless, but some clam species have extremely long lifespans, with Arctica islandica holding the record as the longest-lived animal (reaching up to 500 years)! My project focuses on exploring the incredible longevity in clam species like A. islandica using a combination of transcriptomic and genetic tools. By...","categories": [],
+        "tags": [],
+        "url": "/people/justin_waletich/",
+        "teaser": "/images/people/justin_waletich.headshot.jpg"
       },{
         "title": "Kate Woronowicz",
         "excerpt":"I treat evolution as one big forward-genetic screen to uncover mechanisms that modulate craniofacial form. For example, I can ask, “Within this group of diverse fishes, are there consistent genomic regions or pathways that are altered in species with large jaws?” Through this, I am extending our understanding of craniofacial...","categories": [],
@@ -112,12 +124,6 @@ var store = [{
         "tags": [],
         "url": "/people/nicola_blum/",
         "teaser": "/images/people/bio-photo.jpg"
-      },{
-        "title": "Stephen Treaster",
-        "excerpt":"Computational biologist with a focus on aging and age-related diseases, leveraging natural examples of exceptional longevity to decipher mechanisms of senescence resistance. Animals that resist the rigors of time well past a human lifespan, that maintain health and function for centuries, will inform therapies to prevent aging and age-related diseases...","categories": [],
-        "tags": [],
-        "url": "/people/stephen_treaster/",
-        "teaser": "/images/people/profile_turtle_cropped.jpg"
       },{
         "title": "Yu-Chia Chen",
         "excerpt":"Yu-Chia is too busy doing brilliant science to send Stephen his bio.   Related Projects           Publications  ","categories": [],
