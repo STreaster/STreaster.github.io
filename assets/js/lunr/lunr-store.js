@@ -77,6 +77,12 @@ var store = [{
         "url": "/associated_personnel/giulia_montagna/",
         "teaser": "/images/people/giulia_headshot.jpg"
       },{
+        "title": "Alicia Bickel",
+        "excerpt":"Alicia is an undergraduate student and John Harvard Scholar at Harvard University and a research intern in the Harris laboratory who is currently pursuing a degree in Integrative Biology with a Secondary Field in Folklore and Mythology. She is interested in evolutionary genetics, cryptic genetics, and organism development. She spends...","categories": [],
+        "tags": [],
+        "url": "/people/alicia_bickel/",
+        "teaser": "/images/people/alicia_bickel.png"
+      },{
         "title": "Brent Hawkins",
         "excerpt":"Using vertebrate appendages as an evolutionary study system, I seek to characterize the developmental genetic mechanisms that control the generation of form and understand how these mechanisms both limit and potentiate evolutionary change. I leverage cutting-edge functional genetic tools in established model systems along with -omics approaches in emerging model...","categories": [],
         "tags": [],
@@ -101,7 +107,7 @@ var store = [{
         "url": "/people/joao_castro/",
         "teaser": "/images/people/joao_castro_headshot.jpg"
       },{
-        "title": "Justin **Waletich**",
+        "title": "Justin Waletich",
         "excerpt":"Okay, not actually ageless, but some clam species have extremely long lifespans, with Arctica islandica holding the record as the longest-lived animal (reaching up to 500 years)! My project focuses on exploring the incredible longevity in clam species like A. islandica using a combination of transcriptomic and genetic tools. By...","categories": [],
         "tags": [],
         "url": "/people/justin_waletich/",
@@ -114,7 +120,7 @@ var store = [{
         "teaser": "/images/people/katherine_woronowicz.jpg"
       },{
         "title": "Matthew Harris",
-        "excerpt":"Always pushing the boundaries of science and optimizing the amount of sugar to feed a postdoc. Publications Complete list in NCBI My Bibliography 2024 Woronowicz, K. C., Esin, E. V., Markevich, G. N., Martinez, C. S., McMenamin, S. K., Daane, J. M., Harris, M. P.* and Shkil, F. N.* (2024)....","categories": [],
+        "excerpt":"Always pushing the boundaries of science and optimizing the amount of sugar to feed a postdoc.   Publications  Complete list in NCBI My Bibliography   Sometimes updated list at Fishbonelab Publications  ","categories": [],
         "tags": [],
         "url": "/people/matthew_harris/",
         "teaser": "/images/people/matt_headshot.jpg"
