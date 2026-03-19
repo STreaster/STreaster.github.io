@@ -108,7 +108,7 @@ var store = [{
         "teaser": "/images/people/joao_castro_headshot.jpg"
       },{
         "title": "Justin Waletich",
-        "excerpt":"Okay, not actually ageless, but some clam species have extremely long lifespans, with Arctica islandica holding the record as the longest-lived animal (reaching up to 500 years)! My project focuses on exploring the incredible longevity in clam species like A. islandica using a combination of transcriptomic and genetic tools. By...","categories": [],
+        "excerpt":"Some clam species have extremely long lifespans, with Arctica islandica holding the record as the longest-lived animal (reaching up to 500 years)! My project focuses on exploring the incredible longevity in clam species like A. islandica using a combination of transcriptomic and genetic tools. By investigating several clam species with...","categories": [],
         "tags": [],
         "url": "/people/justin_waletich/",
         "teaser": "/images/people/justin_waletich.headshot.jpg"
